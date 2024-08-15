@@ -1,0 +1,35 @@
+.main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+background-color: #f5edee;
+height: 100vh;
+
+}
+.content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.subClass{
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+  background: linear-gradient(135deg, #f7e9b4 0%, #98d1e3 50%, #f1c4cc 100%);
+  padding: 30px;
+  border: 2px black solid;
+  border-radius: 9px;
+  box-shadow: 5px 2px  .8px  rgb(173, 165, 165);
+}
+.content label{
+  margin-right: auto;
+}
+.content button
+{
+  width: 300px;
+  height: 40px;
+  border-radius:6px;
+}
